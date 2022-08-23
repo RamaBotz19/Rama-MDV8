@@ -185,30 +185,30 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: 'List Menu ',
+        title: '𝘙𝘢𝘮𝘢𝘉𝘰𝘵𝘻-𝘔𝘋 ',
         rows: [
-          { title: 'Semua Perintah', rowId: `${_p}? all` },
-          { title: 'Game', rowId: `${_p}? game` },
-          { title: 'XP', rowId: `${_p}? xp` },
-          { title: 'Stiker', rowId: `${_p}? stiker` },
-          { title: 'Kerang Ajaib', rowId: `${_p}? kerangajaib` },
-          { title: 'Quotes', rowId: `${_p}? quotes` },
-          { title: 'Grup', rowId: `${_p}? grup` },
-          { title: 'Premium', rowId: `${_p}? premium` },
-          { title: 'Internet', rowId: `${_p}? internet` },
-          { title: 'Anonymous', rowId: `${_p}? anonymous` },
-          { title: 'Nulis & Logo', rowId: `${_p}? nulis` },
-          { title: 'Downloader', rowId: `${_p}? downloader` },
-          { title: 'Tools', rowId: `${_p}? tools` },
-          { title: 'Fun', rowId: `${_p}? fun`},
-          { title: 'Database', rowId: `${_p}? database` },
-          { title: 'Vote & Absen', rowId: `${_p}? vote` },
-          { title: "Al-Qur\'an", rowId: `${_p}? quran` },
-          { title: 'Pengubah Suara', rowId: `${_p}? audio` },
-          { title: 'Jadi Bot', rowId: `${_p}? jadibot` },
-          { title: 'Info', rowId: `${_p}? info` },
-          { title: 'Tanpa Kategori', rowId: `${_p}? tanpakategori` },
-          { title: 'Owner', rowId: `${_p}? owner` },
+          { title: '✉️𝘚𝘌𝘔𝘜𝘈 𝘔𝘌𝘕𝘜(𝘈𝘓𝘓 𝘔𝘌𝘕𝘜) ✉️', rowId: `${_p}? all` },
+          { title: '🕹𝘔𝘌𝘕𝘜 𝘎𝘈𝘔𝘌 (𝘎𝘈𝘔𝘌) 🕹', rowId: `${_p}? game` },
+          { title: '💰𝘟𝘗 (𝘓𝘐𝘔𝘐𝘛)💰 ', rowId: `${_p}? xp` },
+          { title: '♻️𝘊𝘖𝘕𝘝𝘌𝘛𝘌𝘙 (𝘚𝘛𝘐𝘊𝘒𝘌𝘙) ♻️', rowId: `${_p}? stiker` },
+          { title: '🐚𝘔𝘌𝘕𝘜 𝘒𝘌𝘙𝘈𝘕𝘎 (𝘒𝘌𝘙𝘈𝘕𝘎 𝘈𝘑𝘈𝘐𝘉)🐚', rowId: `${_p}? kerangajaib` },
+          { title: '🗣️𝘘𝘜𝘖𝘛𝘌𝘚 (𝘒𝘈𝘛𝘈-𝘒𝘈𝘛𝘈) 🗣️', rowId: `${_p}? quotes` },
+          { title: '🔰𝘎𝘙𝘖𝘜𝘗(𝘔𝘌𝘕𝘜 𝘎𝘊) 🔰', rowId: `${_p}? grup` },
+          { title: 'Ⓜ️𝘗𝘙𝘌𝘔𝘐𝘜𝘔 (𝘜𝘕𝘛𝘜𝘒 𝘗𝘙𝘌𝘔𝘐𝘜𝘔)Ⓜ️', rowId: `${_p}? premium` },
+          { title: '💻𝘚𝘌𝘈𝘙𝘊𝘏(𝘐𝘕𝘛𝘌𝘙𝘕𝘌𝘛) 💻', rowId: `${_p}? internet` },
+          { title: '📱𝘈𝘕𝘖𝘠𝘔𝘖𝘜𝘚 𝘊𝘏𝘈𝘛(𝘈𝘕𝘖𝘠𝘔𝘖𝘜𝘚)📱', rowId: `${_p}? anonymous` },
+          { title: '📒𝘕𝘜𝘓𝘐𝘚 & 𝘓𝘖𝘎𝘖(𝘉𝘜𝘈𝘛 𝘓𝘖𝘎𝘖)📒', rowId: `${_p}? nulis` },
+          { title: '💠𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋 𝘔𝘌𝘕𝘜(𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋)💠', rowId: `${_p}? downloader` },
+          { title: '⚙️𝘔𝘌𝘕𝘜 𝘛𝘖𝘖𝘓𝘚(𝘛𝘖𝘖𝘓𝘚)⚙️', rowId: `${_p}? tools` },
+          { title: '😂𝘔𝘌𝘕𝘜 𝘍𝘜𝘕(𝘉𝘈𝘏𝘈𝘎𝘐𝘈)😂', rowId: `${_p}? fun`},
+          { title: '📑𝘋𝘈𝘛𝘈𝘉𝘈𝘚𝘌 𝘉𝘖𝘛(𝘋𝘈𝘛𝘈𝘉𝘈𝘚𝘌)📑', rowId: `${_p}? database` },
+          { title: '🕰𝘝𝘖𝘛𝘌 & 𝘈𝘉𝘚𝘌𝘕(𝘔𝘌𝘕𝘜 𝘈𝘉𝘚𝘌𝘕)🕰', rowId: `${_p}? vote` },
+          { title: "👥𝘈𝘓-𝘘𝘜𝘙𝘈𝘕 (𝘐𝘚𝘓𝘈𝘔 𝘔𝘌𝘕𝘜)👥", rowId: `${_p}? quran` },
+          { title: '🔊𝘗𝘌𝘕𝘎𝘜𝘉𝘈𝘏 𝘚𝘜𝘈𝘙𝘈(𝘈𝘜𝘋𝘐𝘖)🔊', rowId: `${_p}? audio` },
+          { title: '🤖𝘑𝘈𝘋𝘐𝘉𝘖𝘛(𝘕𝘌𝘉𝘌𝘕𝘎)🤖', rowId: `${_p}? jadibot` },
+          { title: '🔩𝘐𝘕𝘍𝘖 𝘉𝘖𝘛(𝘉𝘖𝘛)🔩', rowId: `${_p}? info` },
+          { title: '❓𝘛𝘈𝘕𝘗𝘈 𝘒𝘈𝘛𝘌𝘎𝘖𝘙𝘐(𝘕𝘖 𝘒𝘈𝘛𝘌𝘙𝘎𝘖𝘙𝘐)❓', rowId: `${_p}? tanpakategori` },
+          { title: '👑𝘖𝘞𝘕𝘌𝘙 (𝘒𝘏𝘜𝘚𝘜𝘚 𝘖𝘞𝘕𝘌𝘙)👑', rowId: `${_p}? owner` },
         ]
       }
     ]
@@ -217,7 +217,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       footer: wm,
       mentions: await conn.parseMention(judul),
       title: '',
-      buttonText: "Klik Disini",
+      buttonText: "𝘒𝘓𝘐𝘊𝘒 𝘈𝘑𝘎",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
