@@ -43,12 +43,12 @@ global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 global.Intervalmsg = 1800 //detik
 
 //========Url Template Buttons=========//
-global.dtu = 'GROUP'
-global.urlnya = "https://chat.whatsapp.com/ElWAM7irWS13d4R29HpbV1"
+global.dtu = 'GROUP OWNER'
+global.urlnya = "https://chat.whatsapp.com/EOv8e2Fkncg0BEDXVmhY7c"
 
 //============= callButtons =============//
 global.dtc = 'RUN BOT'
-global.phn = 'Wa.me/62895327934887?text=jasarunbot'
+global.phn = 'Wa.me/6287793236775?text=jasarunbot'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
@@ -58,12 +58,12 @@ global.dikit = "dikit lagi, semangat ya :')"
 global.multiplier = 100 // The higher, The harder levelup
 
 // Sticker WM
-global.packname = 'Àimò Shuǐ Botz'
-global.author = 'by KrizynOfc'
+global.packname = '𝘙𝘢𝘮𝘢𝘉𝘰𝘵𝘻-𝘔𝘋'
+global.author = 'by 𝘈𝘫𝘪\𝘯𝘙𝘢𝘮𝘢'
 
 //=========== Requirements ==========//  
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy KrizynOfc'
+        global.colong2 = 'ʙy 𝘈𝘫𝘪'
 global.img = pickRandom(waifu)
 global.fla = pickRandom(flaaa)
 
